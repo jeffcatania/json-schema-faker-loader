@@ -1,0 +1,28 @@
+{
+  "name": "json-schema-faker-loader",
+  "version": "0.1.5",
+  "description": "A Webpack loader for the json-schema-faker-loader package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "loader",
+    "json-schema-faker",
+    "faker",
+    "json",
+    "json-schemer",
+    "id3"
+  ],
+  "author": "Jeff Catania <jeffrey.catania@accenture.com>",
+  "license": "Copyright 2015 Accenture",
+  "dependencies": {
+    "json-schema-faker": "^0.1.5",
+    "json-stable-stringify": "^1.0.0",
+    "loader-utils": "^0.2.7"
+  },
+  "devDependencies": {
+    "json-schema": "^0.2.2",
+    "json-schema-faker": "^0.1.5"
+  }
+}
