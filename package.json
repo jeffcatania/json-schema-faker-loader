@@ -1,6 +1,6 @@
 {
   "name": "json-schema-faker-loader",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A Webpack loader for the json-schema-faker-loader package.",
   "main": "index.js",
   "scripts": {
