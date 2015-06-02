@@ -10,6 +10,7 @@ var json = require("json-schema-faker!./file.jsf");
 Don't forget to polyfill `require` if you want to use it in node.
 See `webpack` documentation.
 
+
 ## License
 
-Copyright 2015 Accenture
+MIT (http://www.opensource.org/licenses/mit-license.php)
