@@ -21,6 +21,6 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "json-schema-faker": "^0.1.5"
+    "json-schema-faker": ">=0.1.5"
   }
 }
