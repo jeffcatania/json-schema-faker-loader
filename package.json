@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "jeffcatania/json-schema-faker-loader",
   "keywords": [
     "loader",
     "json-schema-faker",
@@ -19,20 +20,7 @@
     "email": "jeffrey.catania@accenture.com"
   },
   "license": "MIT",
-  "dependencies": {
-    "json-schema-faker": "^0.1.5",
-    "json-stable-stringify": "^1.0.0",
-    "loader-utils": "^0.2.7"
-  },
-  "devDependencies": {
-    "json-schema": "^0.2.2",
+  "peerDependencies": {
     "json-schema-faker": "^0.1.5"
-  },
-  "readme": "# json-schema-faker loader for webpack\n\n## Usage\n\n``` javascript\nvar json = require(\"json-schema-faker!./file.jsf\");\n// => returns file.json content as json parsed object\n```\n\nDon't forget to polyfill `require` if you want to use it in node.\nSee `webpack` documentation.\n\n## License\n\nMIT",
-  "readmeFilename": "README.md",
-  "gitHead": "871cf38b8602d53355943daa83af266dd3b67fdc",
-  "_id": "json-schema-faker-loader@0.1.6",
-  "_shasum": "cf0581ac5177b1d2999fbaa57c2ebffecc968ef4",
-  "_from": "../json-schema-faker-loader",
-  "_resolved": "file:../json-schema-faker-loader"
+  }
 }
